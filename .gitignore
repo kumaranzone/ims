@@ -13,7 +13,7 @@ docs
 lib
 test
 tmp
-
+node_modules/
 gulpfile.js
 gulpfile.js.map
 
