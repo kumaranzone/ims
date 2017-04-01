@@ -9,8 +9,8 @@
 
 <div class="row">
   <div class="col-sm-4" style="width: 300px">
-    <ul class="nav nav-pills nav-stacked ">
-      <li class="active"><a [routerLink]="['/home']" style="background-color: #753d97;">Information Security Policy</a></li>
+    <ul class="nav nav-pills nav-stacked">
+      <li class="active"><a [routerLink]="['/home']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="background-color: #753d97;">Information Security Policy</a></li>
       <li><a class="menu" [routerLink]="['/about']">Antivirus</a></li>
       <li><a class="menu">Backup</a></li>
       <li><a class="menu">Information Security Policy</a></li>
@@ -26,9 +26,4 @@
       <li><a class="menu">Contact information</a></li>
     </ul>
   </div>
-  </div>
-
-  <!--<nav>
-  <a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">HOME</a>
-  <a [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">ABOUT</a>
-</nav>-->
+</div>
