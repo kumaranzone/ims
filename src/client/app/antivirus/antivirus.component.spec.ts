@@ -4,7 +4,7 @@ import {
   TestBed
 } from '@angular/core/testing';
 
-import { AntivirusModule } from './antivirus.module';
+import { AntivirusModule } from './about.module';
 
 export function main() {
    describe('Antivirus component', () => {
@@ -14,7 +14,7 @@ export function main() {
     beforeEach(() => {
       TestBed.configureTestingModule({
         declarations: [TestComponent],
-        imports: [AntivirusModule]
+        imports: [AboutModule]
       });
     });
 

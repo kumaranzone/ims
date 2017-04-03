@@ -10,3 +10,6 @@ h2 {
   margin-bottom: 0;
   margin-top: 0.83em;
 }
+
+#upleft { width:200px; height: 200px;  float:left; }
+#upright {}

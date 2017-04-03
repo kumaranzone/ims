@@ -1,0 +1,29 @@
+<header>
+  <nav class="navbar">
+    <div class="navbar-header">
+      <a [routerLink]="['/about']"><img class="thumbnail-image" src="./assets/mainnav-logo_quintilesims.png" alt="..." align="left" heigh="105px" width="300px"></a>
+    </div>
+  </nav>
+</header>
+
+
+<div class="row">
+  <div class="col-sm-4" style="width: 300px">
+    <ul class="nav nav-pills nav-stacked title">
+      <li class="active"><a [routerLink]="['/home']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="background-color: #753d97;background-radius:90px;">Information Security Policy</a></li>
+      <li><a class="menu" [routerLink]="['/antivirus']">Antivirus</a></li>
+      <li><a class="menu" [routerLink]="['/backup']">Backup</a></li>
+      <li><a class="menu" [routerLink]="['/home']">Information Security Policy</a></li>
+      <li><a class="menu" [routerLink]="['/classifcationData']">Classification of Data</a></li>
+      <li><a class="menu" [routerLink]="['/lockComputer']">Lock your computer</a></li>
+      <li><a class="menu" [routerLink]="['/mailBehaviour']">Mail behaviour</a></li>
+      <li><a class="menu" [routerLink]="['/onlineUse']">online use</a></li>
+      <li><a class="menu" [routerLink]="['/softwareUpdate']">Software update</a></li>
+      <li><a class="menu" [routerLink]="['/organization']">Organization</a></li>
+      <li><a class="menu" [routerLink]="['/password']">Password</a></li>
+      <li><a class="menu" [routerLink]="['/phishing']">Phishing</a></li>
+      <li><a class="menu" [routerLink]="['/latestNews']">Latest news</a></li>
+      <li><a class="menu" [routerLink]="['/contactInfo']">Contact information</a></li>
+    </ul>
+  </div>
+</div>
