@@ -1,10 +1,23 @@
 <sd-toolbar></sd-toolbar>
 <main>
+    <div class="row" style="margin-top:3%; margin-left:1%;background-color:#ccc9c1">
+        <header>
+            <nav class="navbar">
+                <div class="navbar-header">
+                    <a [routerLink]="['/about']"><img class="thumbnail-image" src="./assets/mainnav-logo_quintilesims.png" alt="..." align="left" heigh="105px"
+                            width="300px"></a>
+                </div>
+            </nav>
+        </header>
+    </div>
     <div class="row">
-        <div class="col-lg-4"><sd-navbar></sd-navbar></div>
-        <div class="col-lg-8 content"><router-outlet></router-outlet></div>
+
+        <div class="col-lg-4" style="width:23.5%;">
+            <sd-navbar></sd-navbar>
+        </div>
+        <div class="col-lg-8 content">
+            <router-outlet></router-outlet>
+        </div>
     </div>
 </main>
-    <sd-footer></sd-footer>
-
-
+<sd-footer></sd-footer>

@@ -23,7 +23,7 @@ body {
 
 /* Set up a default font and some padding to provide breathing room */
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Georgia;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,6 +35,7 @@ p {
   line-height: 20px;
   margin-bottom: 1em;
   margin-top: 1em;
+
 }
 
 ul {
@@ -68,5 +69,19 @@ button {
 }
 
 button:hover {
-  background-color: #28739e;
+  
 }
+
+h3 {
+    text-decoration: underline;
+    color: blue;
+    font-family: Georgia;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  font-family: Georgia;
+  font-size: 16px;
+}
+

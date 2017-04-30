@@ -2,12 +2,15 @@
   flex: 1 1 100%;
   display: flex;
   flex-flow: column;
-  font-family:"Open Sans-serif";
+  font-family: Georgia;
 }
 .content{
-  padding:20px;
-  font-family: "Open Sans-serif";
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #2c3e50;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  text-align: justify;
+  font-family: Georgia;
 }
+
