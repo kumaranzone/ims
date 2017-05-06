@@ -12,3 +12,13 @@
 .copyright{
     padding-top:3%;
 }
+
+ul{
+    list-style: none;
+}
+a{
+    color:#fff;
+}
+.paddingAlign{
+    padding-top:1.5%;
+}
