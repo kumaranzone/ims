@@ -9,12 +9,13 @@
 .content{
   font-size: 16px;
   margin-top:1.5%;
+  padding-left:5%;
   line-height: 1.42857143;
   color: #2c3e50;
   line-height: 1.42857143;
   text-align: justify;
   font-family: Georgia;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 .thumbnail-image{
   width:265px;
@@ -26,7 +27,8 @@
 }
 
 .search{
-padding-top: 50px;
+/*padding-top: 50px;*/
+padding-top:5px;
 }
 
 fieldset {
@@ -34,7 +36,8 @@ fieldset {
     margin: 0;
     border: 0;
     min-width: 0;
-    padding-left: 1050px;
+    right:5%;
+    /*padding-left: 1050px;*/
 }
 
 .au_searchform #tx_googlequery_searchform_ss_q {
@@ -55,9 +58,7 @@ fieldset {
     height: 40px;
 }
 
-.menu resetlist{
 
-}
 .top-bar{
   font-family: Georgia;
     font-weight: 400;
@@ -68,4 +69,8 @@ fieldset {
 
 .navbar-collapse collapse{
   color: red;
+}
+.ft-right{
+  float:right !important;
+  padding-top:2%;
 }

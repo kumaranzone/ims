@@ -3,7 +3,7 @@
   font-family: "Georgia","Helvetica Neue",Helvetica,Arial,sans-serif;
   /*border-bottom-width: 1px;*/
   display: block;
-  padding-top: 100px;
+  padding-top: 15px;
 }
 .active{
   /*color: #106cc8;*/
@@ -21,7 +21,7 @@
   padding: 2rem;
   font-size: 1.0rem;
   margin-bottom: 2rem;
-  width: 390px;
+  width: 350px;
 }
 .left-menu ul{
   margin: 0;
