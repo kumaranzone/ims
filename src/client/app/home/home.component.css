@@ -12,3 +12,43 @@ ul {
   list-style-type: none;
   padding: 0 0 0 8px;
 }
+
+
+.image-content {
+  background : url("assets/informationssikkerhed_01.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  color: #fff;
+}
+.image-content-text{
+    margin-left: 24px;
+    bottom: 24px;
+    position: absolute
+  }
+
+  .image-content-text h1 {
+    line-height: 32px;
+    font-size: 32px;
+    float: left;
+    clear: both;
+    margin: 0!important;
+    padding: 4px 10px;
+    color: #fff;
+    font-family: AUPassataLight;
+    background: #333;
+    background: rgba(26,26,26,.75);
+    border: 0
+  }
+
+  .image-content-text ul li {
+    float: left;
+    clear: left;
+    padding: 4px 10px!important;
+    margin-top: 4px;
+    padding-left: 10px;
+    background-image: none;
+    line-height: 1em!important;
+    margin-bottom: 0!important;
+    background: rgba(226,0,122,0.75) !important;
+  }
