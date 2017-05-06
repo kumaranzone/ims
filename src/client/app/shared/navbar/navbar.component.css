@@ -1,9 +1,9 @@
 :host {
   border: 0 solid #e1e1e1;
-  font-family: "Verdana","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Georgia","Helvetica Neue",Helvetica,Arial,sans-serif;
   /*border-bottom-width: 1px;*/
   display: block;
-  padding: 8px 16px;
+  padding-top: 100px;
 }
 .active{
   /*color: #106cc8;*/
@@ -11,8 +11,8 @@
 }
 
 .title{
-  font-family: "Verdana","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 13px;
+  font-family: Georgia,Helvetica,Arial,sans-serif;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@
   padding: 2rem;
   font-size: 1.0rem;
   margin-bottom: 2rem;
-  width: 300px;
+  width: 390px;
 }
 .left-menu ul{
   margin: 0;
@@ -31,6 +31,7 @@
   list-style: none;
   margin-bottom: 1.4rem;
   line-height:2.5;
+
 }
 
 .left-menu ul li a {
@@ -45,7 +46,10 @@
 }
 .ft-right{
   padding-left:10px;
+   font-size: 18px;
 }
+
+
 
 a{
     color: #002546;
