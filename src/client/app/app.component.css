@@ -6,11 +6,20 @@
 }
 .content{
   font-size: 16px;
+  margin-top:1.5%;
   line-height: 1.42857143;
   color: #2c3e50;
   line-height: 1.42857143;
   text-align: justify;
   font-family: Georgia;
+}
+.thumbnail-image{
+  width:265px;
+  margin:10px;
+}
+.header{
+  background-color:#002546; 
+  height:105px;
 }
 
 

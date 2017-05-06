@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+.footer{
+    background-color: #002546;
+    height:100px;
+    margin-top: 5px;
+    color: #fff;
+    text-align: center;
+}
+.copyright{
+    padding-top:3%;
+}

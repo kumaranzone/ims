@@ -1,13 +1,13 @@
 <sd-toolbar></sd-toolbar>
 <main>
-    <div class="row" style="background-color: #7996a6;">
+    <div class="row" class="header">
         <header>
-            <nav class="navbar" style=" margin-bottom: 0px;" >
+            <div class="navbar" >
                  <div class="navbar-header">
-                    <a [routerLink]="['/about']"><img class="thumbnail-image" style="background-color: rgba(255, 255, 255, 0.72);" src="./assets/mainnav-logo_quintilesims.png" alt="..." align="left" height="80px"
-                            width="300px"></a>
+                    <a [routerLink]="['/about']"><img class="thumbnail-image"  src="./assets/mainnav-logo_quintilesims.png" alt="..." align="left" height="80px"
+                            ></a>
                 </div> 
-            </nav>
+            </div>
         </header>
     </div>
     <div class="row">
@@ -15,7 +15,7 @@
         <div class="col-lg-4" style="width:23.5%;">
             <sd-navbar></sd-navbar>
         </div>
-        <div class="col-lg-8 content" style="margin-top:1.5%">
+        <div class="col-lg-8 content">
             <router-outlet></router-outlet>
         </div>
     </div>
