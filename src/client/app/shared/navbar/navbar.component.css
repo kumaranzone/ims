@@ -1,9 +1,9 @@
 :host {
-  border: 0 solid #e1e1e1;
-  font-family: "Georgia","Helvetica Neue",Helvetica,Arial,sans-serif;
+  border: 0 solid red;
+  font-family: "Arial","Verdana",Helvetica,Arial,sans-serif;
   /*border-bottom-width: 1px;*/
   display: block;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 .active{
   /*color: #106cc8;*/
@@ -11,15 +11,15 @@
 }
 
 .title{
-  font-family: Georgia,Helvetica,Arial,sans-serif;
-  font-size: 24px;
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  font-size: 26px;
   font-weight: bold;
 }
 
 .left-menu {
   background: #f2f2f2;
   padding: 2rem;
-  font-size: 1.0rem;
+  font-size: 20px;
   margin-bottom: 2rem;
   /*width: 350px;*/
 }
@@ -42,7 +42,7 @@
     cursor: pointer;
 }
 .left-menu ul li a:hover {
-    color: red;
+    color: #753d97;
     text-decoration: underline;
 
 }
@@ -56,10 +56,8 @@
 
 
 
-a{
+.ft-right:active{
     color: #002546;
-    text-decoration: none;
-    cursor: pointer;
-     font-size: 15px;
+    text-decoration: underline;
     line-height: 1.5;
 }

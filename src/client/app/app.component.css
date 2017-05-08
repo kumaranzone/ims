@@ -2,23 +2,24 @@
   flex: 1 1 100%;
   display: flex;
   flex-flow: column;
-  font-family: Georgia !important;
- 
+  font-family: Arial !important;
+ padding-top: 30px;
 
 }
 .content{
-  font-size: 16px;
+  font-size: 18px;
   margin-top:1.5%;
   line-height: 1.42857143;
   color: #2c3e50;
   line-height: 1.42857143;
   text-align: justify;
-  font-family: Georgia;
+  font-family: Arial;
   /*padding-top: 80px;*/
 }
 .thumbnail-image{
-  width:265px;
-  margin:10px;
+  width:260px;
+    height: 60px;
+    margin: 10px;
 }
 .header{
   background-color:#002546; 

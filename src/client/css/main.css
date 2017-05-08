@@ -23,8 +23,8 @@ body {
 
 /* Set up a default font and some padding to provide breathing room */
 body {
-  font-family: Georgia;
-  font-size: 16px;
+  font-family: Arial, verdana;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -68,20 +68,20 @@ button {
   text-decoration: none;
 }
 
-button:hover {
-  
+a:hover {
+  color: #753d97;
 }
 
 h3 {
     text-decoration: underline;
     color: blue;
-    font-family: Georgia;
+    font-family: Arial;
   font-size: 20px;
 }
 
 a {
   color: black;
-  font-family: Georgia;
-  font-size: 16px;
+  font-family: Arial;
+  font-size: 18px;
 }
 
