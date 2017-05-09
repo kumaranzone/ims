@@ -1,6 +1,6 @@
 :host {
-  display: block;
-  padding: 0 16px;
+  display: block;/*
+  padding: 0 16px;*/
   font-family:Arial !important;
 }
 
@@ -52,3 +52,17 @@ ul {
     margin-bottom: 0!important;
     background: rgba(226,0,122,0.75) !important;
   }
+
+
+.col-lg-12{
+  background-color: #f2f2f2;
+}
+
+.paragraph {
+  padding-top: 15px;
+
+}
+
+.btn-success{
+  background-color: #753d97;
+}
