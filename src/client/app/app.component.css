@@ -17,13 +17,18 @@
   /*padding-top: 80px;*/
 }
 .thumbnail-image{
-  width:260px;
+ /* width:260px;
     height: 60px;
-    margin: 10px;
+    margin: 10px;*/
+    margin-left: 25px;
+    width: 80%;
+    position: relative;
+    background-color: white;
 }
 .header{
   background-color:#002546; 
-  height:105px;
+  /*height:105px;*/
+    
 }
 
 .search{
@@ -75,3 +80,6 @@ fieldset {
   padding-top:2%;
 }
 
+.navbar{
+    margin-bottom: 0px;
+}
