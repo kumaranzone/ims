@@ -5,10 +5,7 @@
   display: block;
   padding-top: 25px;
 }
-.active{
-  /*color: #106cc8;*/
-   border-radius: 90px !important;
-}
+
 
 .title{
   font-family: Arial,Verdana,Helvetica,sans-serif;
@@ -46,6 +43,13 @@
     text-decoration: underline;
 
 }
+
+.active {
+  color: #753d97 !important;
+  text-decoration: underline !important;
+  font-weight: bolder;
+}
+
 .ft-left{
   float:left;
 }

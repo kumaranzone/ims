@@ -6,7 +6,61 @@
                  <div class="navbar-header">
                     <a [routerLink]="['/about']"><img class="thumbnail-image" src="./assets/mainnav-logo_quintilesims.png" alt="..." align="left"></a>
                 </div> 
-                <div class="ft-right">
+               
+            </div>
+            <div class="row" style="background-color: #753d97;">
+        <div >
+           <nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+                         <li class="listMenu"><a href="#" class="topMenu">Home</a></li>
+                    <li class="listMenu">
+                        <a href="#" class="topMenu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="listMenu">
+                                <a href="#" class="topMenu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View Departments</a>
+                            </li>
+                            <li><a href="#" class="topMenu">Add New</a></li>
+                        </ul>
+                    </li>
+                    <li class="listMenu"><a href="#" class="topMenu">Add New</a></li>
+                    <li class="listMenu" ><a href="#" class="topMenu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Managers <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">View Managers</a></li>
+                            <li><a href="#">Add New</a></li>
+                        </ul>
+                    </li>
+                    <li class="listMenu"><a href="#" class="topMenu" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Staff <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">View Staff</a></li>
+                            <li><a href="#">Add New</a></li>
+                            <li><a href="#">Bulk Upload</a></li>
+                        </ul>
+                    </li>
+                    <li class="listMenu" ><a href="#" class="topMenu" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">HR <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Change Time Entry</a></li>
+                            <li><a href="#">Report</a></li>
+                        </ul>
+                    </li>
+                    <li > 
+    </ul>
+   <!--  <ul class="nav navbar-nav navbar-center">
+        <li><a href="#">Center</a></li>
+        <li><a href="#">Center</a></li>
+      <li><a href="#">Center</a></li>
+    </ul> -->
+    <ul class="nav navbar-nav navbar-right">
+        <li><div class="ft-right" >
 
                     <div class="search">
                         <form class="navbar-form" role="search">
@@ -20,47 +74,11 @@
                             </fieldset>
                         </form>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-        <div style="background-color: #e6e6e6; color: white;">
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#" class="">Home</a></li>
-                    <li class=" dropdown">
-                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li class=" dropdown">
-                                <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View Departments</a>
-                            </li>
-                            <li><a href="#">Add New</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Add New</a></li>
-                    <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Managers <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">View Managers</a></li>
-                            <li><a href="#">Add New</a></li>
-                        </ul>
-                    </li>
-                    <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true"
-                            aria-expanded="false">Staff <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">View Staff</a></li>
-                            <li><a href="#">Add New</a></li>
-                            <li><a href="#">Bulk Upload</a></li>
-                        </ul>
-                    </li>
-                    <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true"
-                            aria-expanded="false">HR <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Change Time Entry</a></li>
-                            <li><a href="#">Report</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                </div></li>
+    </ul>
+  </div>
+</nav>
 
-            </div>
         </div>
 
     </div>
@@ -75,5 +93,6 @@
             <router-outlet></router-outlet>
         </div>
     </div>
-</main>
+
 <sd-footer></sd-footer>
+</main>

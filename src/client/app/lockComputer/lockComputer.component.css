@@ -10,3 +10,12 @@ h2 {
   margin-bottom: 0;
   margin-top: 0.83em;
 }
+
+.image-content {
+  background : url("assets/Lock-on-Keyboard.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: center;
+  color: #fff;
+  align-items: center;
+}
